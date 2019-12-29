@@ -1,0 +1,70 @@
+{
+    "classes": {
+        "crops": ["coffee","cotton","jute","maize","millet","rice","sugarcane","tea","tomato","wheat"]
+    },
+    "details": {
+        "rice": {
+            "type": "Kharif, Rabi",
+            "tech": "Transplantation technique, Japanese Transplantation technique, new SRI technique",
+            "vrts": "Aman, Sali, Afghani, Aus, Boro, Palua",
+            "temp": "~ 24 ˚C",
+            "rain": "~ 150 cm",
+            "soil": "Clay/ Loamy",
+            "prdcrs": "West Bengal, Uttar Pradesh, Andhra Pradesh, Punjab, Bihar, Orissa, Chhattisgarh, Assam, Tamil Nadu, Haryana"
+        },
+        "wheat": {
+            "type": "Rabi",
+            "tech": null,
+            "vrts": "Kalyan Sona, Sonalika, Heera",
+            "temp": "17-20 ˚C",
+            "rain": "20-100 cm (ideal ~75 cm)",
+            "soil": "Clay Loamy, Sandy Loamy",
+            "prdcrs": "Uttar Pradesh, Punjab, Madhya Pradesh, Haryana, Rajasthan, Bihar, Gujarat, Maharashtra, West Bengal, Uttarakhand"
+        },
+        "cotton": {
+            "type": "Kharif",
+            "tech": null,
+            "vrts": "Long Staple, Medium Staple, Short Staple",
+            "temp": "21-30 ˚C",
+            "rain": "50-100 cm",
+            "soil": "Black Soil",
+            "prdcrs": "Gujarat, Maharashtra, Andhra Pradesh, Haryana, Madhya Pradesh, Punjab, Rajasthan, Karnataka, Tamil Nadu, Orissa"
+        },
+        "jute": {
+            "type": "Zaid",
+            "tech": null,
+            "vrts": "White Jute, Tossa Jute",
+            "temp": "24-35 ˚C",
+            "rain": "125-200 cm",
+            "soil": "Sand and Clay Loomy",
+            "prdcrs": "West Bengal, Bihar, Assam, Andhra Pradesh, Orissa, Meghalaya, Nagaland, Tripura, Uttar Pradesh"
+        }, 
+        "sugarcane": {
+            "type": "Kharif, Rabi",
+            "tech": null,
+            "vrts": null,
+            "temp": "20-26 ˚C",
+            "rain": "75-150 cm",
+            "soil": "Clayey Loamy Soil/ Black Cotton Soil/ Red Loamy Soil/ Brown Loamy Soil",
+            "prdcrs": "Uttar Pradesh, Maharashtra, Karnataka, Tamil Nadu, Andhra Pradesh, Bihar, Gujarat, Haryana, Uttarakhand, Punjab"
+        },
+        "tea": {
+            "type": "Plantation",
+            "tech": null,
+            "vrts": null,
+            "temp": "20-30 ˚C",
+            "rain": "150-300 cm",
+            "soil": "Loamy soil which is acidic in nature and rich in organic matter",
+            "prdcrs": "Assam, Darjeeling (West Bengal), Meghalaya, Kerala, Himachal Pradesh, Tamil Nadu, Karnataka"
+        },
+        "coffee": {
+            "type": "Plantation",
+            "tech": null,
+            "vrts": "Arabica and Robusta",
+            "temp": "16-28 ˚C",
+            "rain": "150-250 cm",
+            "soil": "Well-drained forest loam",
+            "prdcrs": "Karnataka, Tamil Nadu, Kerala, Andhra Pradesh, Telangana, Odisha, Assam, Meghalaya, Arunachal Pradesh, Manipur, Nagaland"
+        }
+    }
+}

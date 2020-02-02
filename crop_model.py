@@ -35,4 +35,4 @@ def get_crop_prediction(image_bytes):
     _, pred = outputs.max(0)
     outputs = F.softmax(outputs, dim=0)
     preds = [float(f"{outputs[i].item():.4f}") for i in range(len(crop_class_names))]
-    return {"pred": pred.item(), "cnf": preds}
+    return {"pred": pred.item(), "cnf": preds, "kind": "crop"}

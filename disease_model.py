@@ -37,4 +37,4 @@ def get_disease_prediction(image_bytes):
     outputs = disease_model.forward(tensor).squeeze(0)
     _, pred = outputs.max(0)
     preds = [float(f"{outputs[i].item():.4f}") for i in range(len(diseases_class_names))]
-    return {"pred": pred.item(), "cnf": preds}
+    return {"pred": pred.item(), "cnf": preds, "kind": "disease"}

@@ -27,3 +27,6 @@ def disease():
     file = request.files["img"]
     img_bytes = file.read()
     return jsonify(disease_model.get_disease_prediction(img_bytes))
+
+if __name__ == '__main__':
+    app.run(debug=False, host='0.0.0.0', port=8000)

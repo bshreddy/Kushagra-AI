@@ -1,17 +1,22 @@
 # Rurathon AI Inference Server on Flask
 
-  * Install Flask, Pillow, PyTorch
+  * Server IP: `<your-computer-ip>:8000`
 
-  ```
-    Flask: pip install Flask
-    PyTorch (for Python 3.7 Windows): pip3 install torch==1.3.1+cpu torchvision==0.4.2+cpu -f https://download.pytorch.org/whl/torch_stable.html
-    Pytorch (other): Goto https://pytorch.org/get-started/locally/
-    Pillow: pip install Pillow==2.2.1
-  ```
+  * ## Installation
+    
+    * Install required packages <br />
+      `pip3 install -r requirements.txt`
 
-  * Download files from 'https://drive.google.com/drive/folders/18Uh2xpGG2LzgnmoCSQ2d6UR-1PJk-xb5?usp=sharing' and put them in 'models' folder
+    * Download models <br />
+      `python3 download_models.py`
 
-  * 
-  * run 'flask run --host=0.0.0.0 --port=8000'
+    * Run Server <br />
+      `python3 app.py`
 
-> Make sure you change the url in CropPredication and DiseasePredication in Android App
+  * ## Installation (Docker) (recommended)
+
+    * To Build: <br />
+      `docker build -t crop-prediction -f docker/Dockerfile .`
+    
+    * To Run:<br />
+      `docker run -d --rm -p 8000:8000 --name crop-prediction crop-prediction`

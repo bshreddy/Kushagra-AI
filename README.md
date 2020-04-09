@@ -13,7 +13,7 @@
     * Run Server <br />
       `python3 app.py`
 
-  * ## Installation (Docker) (recommended)
+  * ## Installation (Docker) (Recommended)
 
     * To Build: <br />
       `docker build -t crop-prediction -f docker/Dockerfile .`

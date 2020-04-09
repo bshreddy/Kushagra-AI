@@ -1,5 +1,7 @@
 # Rurathon AI Inference Server on Flask
 
+CropPrediction is an Image Classification model, created by fine-tuning ResNet, that can identify 10 different crops and 37 plant diseases. This repo is the Inference Server that can be used by Web Apps or Mobile Apps. Apps send multipart/form-data and receive a response as JSON.
+
   * Server IP: `<your-computer-ip>:8000`
 
   * ## Installation

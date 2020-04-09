@@ -6,8 +6,9 @@ WORKDIR /app
 
 RUN apt-get update -y && \
     apt-get install -y python3 python3-pip python3-dev && \
-    pip3 install -r requirements.txt && \
-    pip3 install torch==1.4.0+cpu torchvision==0.5.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
+    pip3 install -r requirements.txt
+
+RUN python3 download_models.py
 
 RUN mkdir -p /root/.cache/torch/checkpoints/ && \
     mv models/resnet50-19c8e357.pth /root/.cache/torch/checkpoints/resnet50-19c8e357.pth && \

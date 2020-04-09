@@ -1,3 +1,4 @@
+import os
 import io
 import json
 
@@ -7,7 +8,7 @@ import torch.nn.functional as F
 from torchvision import transforms, models
 from PIL import Image
 
-with open("crops.json") as json_file:
+with open(os.path.join("json", "crops.json")) as json_file:
     crop_class_names = json.load(json_file)
 
 crop_model_path = "models/crop_classifier-resnet50-ft-1577380661-10-0.9200"

@@ -16,12 +16,6 @@ def crop():
     img_bytes = file.read()
     return jsonify(crop_model.get_crop_prediction(img_bytes))
 
-# @app.route("/disease", methods=["POST"])
-# def crop():
-#     b64_string = request.files()["img"]
-#     img_bytes = base64.decodebytes(b64_string.encode())
-#     return jsonify(crop_model.get_crop_prediction(img_bytes))
-
 @app.route("/disease", methods=["POST"])
 def disease():
     file = request.files["img"]

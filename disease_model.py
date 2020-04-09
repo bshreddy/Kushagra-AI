@@ -1,3 +1,4 @@
+import os
 import io
 import json
 
@@ -7,7 +8,7 @@ import torch.nn.functional as F
 from torchvision import transforms, models
 from PIL import Image
 
-with open("diseases.json") as json_file:
+with open(os.path.join("json", "diseases.json")) as json_file:
     diseases_class_names = json.load(json_file)
 
 disease_model_path = "models/disease_classifier-resnet152-1577506685-38-0.9481"

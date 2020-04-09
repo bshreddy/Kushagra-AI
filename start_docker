@@ -1,1 +1,1 @@
-docker run -d --rm -p 8000:8000 --name crop-predication crop-prediction
+docker run -d --rm -p 8000:8000 --name crop-prediction crop-prediction

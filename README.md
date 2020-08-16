@@ -4,7 +4,7 @@ An AI-powered mobile crop advisory app for farmers, gardeners that can provide i
 
 This repository is the Inference Server that performs image classification on images captured by the user.
 
-Kushagra Project Repo: [https://github.com/SaiHemanthBR/Kushagra](https://github.com/SaiHemanthBR/Kushagra)
+Main Project Repo: [https://github.com/SaiHemanthBR/Kushagra](https://github.com/SaiHemanthBR/Kushagra)
 
 ## Endpoints
   * [POST] `/crop` - classifies image into one of 10 crop classes. <br>
@@ -62,3 +62,10 @@ Kushagra Project Repo: [https://github.com/SaiHemanthBR/Kushagra](https://github
 
   3. Run Server <br />
       `python3 app.py`
+
+<br><br>
+
+> For more implementation details, please read the report at [github.com/SaiHemanthBR/Kushagra-Report](https://github.com/SaiHemanthBR/Kushagra-Report)
+
+## Contributers
+  * [SaiHemanthBR](https://github.com/SaiHemanthBR/)
